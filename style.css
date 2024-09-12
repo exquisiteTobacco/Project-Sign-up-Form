@@ -213,3 +213,24 @@ input[type="password"]:placeholder-shown {
     margin-top: 90px; /* Add some space above the button */
     align-self: flex-start; /* Align the button to the start of the form group */
 }
+
+.but:hover {
+    background-color: #45a049; /* Darken the button on hover */
+}
+
+/* Styles for .lastText */
+.lastText {
+    margin-top: 20px; /* Add space above the text */
+    font-size: 1.2em; /* Slightly smaller font size */
+    color: #555; /* Gray color for the text */
+    
+}
+
+.lastText a {
+    color: #4CAF50; /* Link color */
+    text-decoration: none; /* Remove underline from link */
+}
+
+.lastText a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
